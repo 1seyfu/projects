@@ -1,0 +1,259 @@
+body{
+    background-color:grey;
+    color: brown;
+    font-size: 1.2;
+}
+.header img {
+     border-radius: 8px;
+}
+
+
+.main {
+    width: 100;
+   background-image: url"tt.jpg";
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+.navbar{width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}.logo{
+    color: brown;
+    font-size: 35px;
+    font-size: arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: -100px;
+    height: 200;
+}
+.menu{
+   width: 400px;
+   float: left;
+   height: 70px;
+}
+ul{
+    float: LEFT;
+    display: FLEX;
+    justify-content: center;
+    align-content: center;
+}
+ 
+
+
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 47px;
+    font-size: 20px;
+
+}
+ul li a{
+    text-decoration: none;
+    color:white;
+    font-family: arial;
+    font-size: bold;
+    transition: 0.5s ease-in-out;
+}
+ul li a:hover{
+    color: orange;
+}
+.search{
+    width: 330px;
+    float: left;
+    margin-left:770px;}
+.srch{
+    font-family: 'Times New Roma';
+    width: 200px;
+    background: transparent;
+    border: 1px solid orange;
+    margin-top: 13px;
+    color: white;
+    border-right:none;
+    font-size: 16px;
+    float: left;
+    padding: 3px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.btn{
+    width: 100px;
+    height: 40px;
+    background: orange;
+    border: 2px solid orange;
+    margin-top: 12px;
+    color:white;
+    font-size: 15px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.btn:focus{
+    outline: none;
+}
+.srch:focus{
+    outline: none;
+}  
+.content{
+    width: 1200;
+    height: auto;
+    margin: auto;
+    color: white;
+    position: relative;
+}
+.content .par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;}
+.content h1{
+    font-family: 'Times New Roma';
+    font-size: 100px;
+    padding-left: 50px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+}
+.content .cn{
+    width: 160px;
+    height: 40px;
+    background: orange;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s ease;
+}
+  .content .cn a{
+    text-decoration: none;
+    color:orange;
+    transition:  .3s ease;
+  }
+.cn:hover{
+    background-color: white;
+}
+.content span{
+    color: orange;
+    font-size: 60px;
+}
+.form {
+    width: 250px;
+    height:380px;
+    background: linear-gradient(to top,rgba(0,0,0,0.8)50%,rgba(0,0,0.8)50%);
+    position: absolute;
+    top: 250px;
+    left: 870px;
+    border-radius: 10px;
+    padding: 25px;
+}
+.form h2{
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: orange;
+    font-size: 22px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
+.form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid orange;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+
+  
+    
+}
+.form input:focus{
+    outline: none;
+}
+::placeholder{
+    color: white;
+    font-family: arial;
+}
+.btnn{
+    width: 240px;
+    height: 40px;
+    background: black;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color:white;
+}
+.btnn :hover{
+    background: white;
+    color: orange;
+}
+.btnn a{
+    text-decoration: none;
+    color: black;
+    font-family: bold;
+}
+
+.form .link a{
+    text-decoration: none;
+    color: orange;
+}
+.liw{
+    padding-left: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.footer {
+    background-color: darkblue;
+    color: aqua;
+    text-align: center;
+    font-size: 1.2em;
+    padding: 15px;
+    text-align: center;
+}
+.caffteria {
+    background-color: orange;
+    color: azure;
+    text-align: center;
+    font-size: 45px;
+    font-family: italic;
+    
+}
+.caff {
+    background-color: blue;
+    color: azure;
+    text-align: center;
+    font-size: 20px;
+    
+}
+ .backgr {
+    background-color: green;
+    color: wheat;
+    text-align: center;
+    font-size: 45px;
+    font-family: Arial;
+    font-style: inherit;
+ } 
+ 
+.back {
+    background-color: purple;
+    color: white;
+    text-align: center;
+    font-size: 45px;
+    font-style: italic;
+    
+}
